@@ -10,10 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "mysql2": "^3.6.1",
     "nuxt": "^3.7.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "mysql2": "^3.6.1"
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@unocss/nuxt": "^0.56.5"
   }
 }

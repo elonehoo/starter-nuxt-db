@@ -1,5 +1,8 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+   <NuxtLayout>
+    <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
+      <NuxtPage />
+      <LazyFooter />
+    </main>
+  </NuxtLayout>
 </template>
