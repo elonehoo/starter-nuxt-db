@@ -1,8 +1,13 @@
+<script lang="ts" setup>
+const { $client } = useNuxtApp();
+
+const { data: todos, refresh } = await $client.todo.list.useQuery();
+</script>
+
 <template>
-   <NuxtLayout>
-    <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
-      <NuxtPage />
-      <LazyFooter />
-    </main>
-  </NuxtLayout>
+  <div>
+    <h1>App</h1>
+    {{ todos }}
+  </div>
 </template>
+

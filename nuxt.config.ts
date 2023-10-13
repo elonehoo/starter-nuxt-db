@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@unocss/nuxt'
   ],
+  build: {
+    transpile: ["trpc-nuxt"],
+  },
   css: [
     '@unocss/reset/tailwind.css',
   ],

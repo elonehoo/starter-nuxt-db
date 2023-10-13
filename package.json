@@ -10,8 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "mysql2": "^3.6.1",
-    "nuxt": "^3.7.4"
+    "@trpc/client": "^10.40.0",
+    "@trpc/server": "^10.40.0",
+    "nuxt": "^3.7.4",
+    "sequelize": "^6.33.0",
+    "sqlite3": "^5.1.6",
+    "trpc-nuxt": "^0.10.12",
+    "unocss": "^0.56.5",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
