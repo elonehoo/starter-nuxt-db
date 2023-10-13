@@ -1,6 +1,5 @@
 import { InMemoryTodoRepository } from "./InMemoryTodoRepository";
 import { SqliteTodoRepository } from "./SqliteTodoRepository";
-import { lorem } from "./lorem";
 import type { TodoRepository } from "./types";
 
 let todoRepository: TodoRepository;
